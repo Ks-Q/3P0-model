@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    992975,      16645]
-NotebookOptionsPosition[    987979,      16552]
-NotebookOutlinePosition[    988389,      16568]
-CellTagsIndexPosition[    988346,      16565]
+NotebookDataLength[    983266,      16451]
+NotebookOptionsPosition[    977321,      16340]
+NotebookOutlinePosition[    977731,      16356]
+CellTagsIndexPosition[    977688,      16353]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -51,7 +51,14 @@ programs/3P0-model\"\>", TraditionalForm]], "Output",
 Cell[BoxData[
  RowBox[{"<<", "QPCModel`"}]], "Input",
  CellChangeTimes->{{3.93132460444116*^9, 3.9313246102006903`*^9}},
- CellLabel->"In[45]:=",ExpressionUUID->"8f3d5ab7-7c0d-4e76-a44b-fe019a36381e"],
+ CellLabel->"In[73]:=",ExpressionUUID->"8f3d5ab7-7c0d-4e76-a44b-fe019a36381e"],
+
+Cell[CellGroupData[{
+
+Cell["Spherical coordinate ", "Subsection",
+ CellChangeTimes->{{3.9314845257857313`*^9, 
+  3.931484540335479*^9}},ExpressionUUID->"986e5914-32a3-4427-9f80-\
+eb5a41843dee"],
 
 Cell[CellGroupData[{
 
@@ -3039,7 +3046,7 @@ FH/W/dP7ftHf9Vz03qf4q5+X3neT/mlxoPc+xd8VH3rfg/q3xI2LzvsU/7R4
    DisplayFunction->Identity,
    FaceGrids->None,
    FaceGridsStyle->Automatic,
-   ImageSize->{363.59758758195125`, 245.77069837990993`},
+   ImageSize->{382.70642358050156`, 157.4246592816665},
    ImageSizeRaw->Automatic,
    Method->{"DefaultBoundaryStyle" -> Directive[
        GrayLevel[0.3]], 
@@ -3057,9 +3064,10 @@ FH/W/dP7ftHf9Vz03qf4q5+X3neT/mlxoPc+xd8VH3rfg/q3xI2LzvsU/7R4
      Scaled[0.02], 
      Scaled[0.02]},
    Ticks->{Automatic, Automatic, Automatic},
-   ViewPoint->{1.4634210032816566`, -2.780531676110291, 1.2558035536266743`},
-   ViewVertical->{-0.17284810231825917`, 0.32841514681949263`, 
-    0.9285833429824746}], TraditionalForm]], "Output",
+   ViewPoint->{3.1297687705966744`, -1.2663235324962028`, 
+    0.22577013452646047`},
+   ViewVertical->{-0.061850340362560166`, 0.025025024925109964`, 
+    0.9977716590104839}], TraditionalForm]], "Output",
  CellChangeTimes->{3.9313251018420277`*^9},
  CellLabel->"Out[28]=",ExpressionUUID->"92934452-1e2d-48ce-8410-dc0298b6c69b"]
 }, Open  ]],
@@ -15607,7 +15615,7 @@ eqJZtsAnsilk+S67+sv2iyW807f97yp123vHtww+e/a+9Ul2b+R//Q8QTGDM
 \>", "ImageResolution" -> \
 144.],ExpressionUUID->"0785a373-0102-4933-82f0-119103686379"]
 }, Open  ]]
-}, Open  ]],
+}, Closed]],
 
 Cell[CellGroupData[{
 
@@ -15874,14 +15882,136 @@ Cell[BoxData[
          SqrtBox["2"]}]]}]], ")"}]}], "}"}], TraditionalForm]], "Output",
  CellChangeTimes->{3.931325536164316*^9},
  CellLabel->"Out[37]=",ExpressionUUID->"a7fe76e3-e138-468a-be25-7b32938cffcf"]
+}, Open  ]]
+}, Closed]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Jacobi coordinate", "Subsection",
+ CellChangeTimes->{{3.93148446931297*^9, 
+  3.931484472987071*^9}},ExpressionUUID->"1ba91bec-3d18-49bd-8431-\
+03552becf45d"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"pA\[Rho]", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"3", ",", 
+      RowBox[{"Pi", "/", "4"}], ",", 
+      RowBox[{"Pi", "/", "4"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"1", ",", 
+      RowBox[{"Pi", "/", "6"}], ",", 
+      RowBox[{"Pi", "/", "6"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"1", ",", 
+      RowBox[{"Pi", "/", "3"}], ",", 
+      RowBox[{"Pi", "/", "3"}]}], "}"}]}], "]"}], "//", "N"}]], "Input",
+ CellChangeTimes->{{3.931484560472186*^9, 3.9314846253146343`*^9}, {
+  3.9314846862490873`*^9, 3.9314846872402277`*^9}, {3.93148492237663*^9, 
+  3.9314849227706003`*^9}},
+ CellLabel->"In[67]:=",ExpressionUUID->"82229639-b8fb-4627-8bc2-4b3c0f93e8a9"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"{", 
+   RowBox[{"0.23994470053506772`", ",", "1.2383906648241283`", ",", 
+    RowBox[{"-", "2.2478789534155723`"}]}], "}"}], TraditionalForm]], "Output",\
+
+ CellChangeTimes->{
+  3.931484587742919*^9, 3.931484625842331*^9, 3.931484687739416*^9, 
+   3.931484835819824*^9, 3.931484868082324*^9, {3.9314849194034557`*^9, 
+   3.931484923160804*^9}},
+ CellLabel->"Out[67]=",ExpressionUUID->"415216df-770e-41c1-a657-7123f90de416"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"?", "NewSphericalVector"}]], "Input",
- CellChangeTimes->{{3.931381131463587*^9, 3.931381136137026*^9}},
- CellLabel->"In[46]:=",ExpressionUUID->"ab06309f-5aca-42ce-a919-02d4769135eb"],
+ RowBox[{
+  RowBox[{"pA\[Rho]", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"3", ",", 
+      RowBox[{"Pi", "/", "4"}], ",", 
+      RowBox[{"Pi", "/", "4"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"1", ",", 
+      RowBox[{"Pi", "/", "6"}], ",", 
+      RowBox[{"Pi", "/", "6"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"1", ",", 
+      RowBox[{"Pi", "/", "3"}], ",", 
+      RowBox[{"Pi", "/", "3"}]}], "}"}]}], "]"}], "//", "N"}]], "Input",
+ CellLabel->"In[70]:=",ExpressionUUID->"139e3c5d-c1f9-44d6-80ae-dc5d474b40d6"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"{", 
+   RowBox[{"0.23994470053506772`", ",", "1.2383906648241283`", ",", 
+    RowBox[{"-", "2.2478789534155723`"}]}], "}"}], TraditionalForm]], "Output",\
+
+ CellChangeTimes->{3.931484957884905*^9},
+ CellLabel->"Out[70]=",ExpressionUUID->"f960df71-118f-4b2c-91b9-376dd810e289"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"pA\[Rho]", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"3", ",", "0", ",", "0"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"2", ",", "0", ",", "0"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"1", ",", "0", ",", "0"}], "}"}]}], "]"}], "//", "N"}]], "Input",\
+
+ CellChangeTimes->{{3.931484747808836*^9, 3.931484780678404*^9}, {
+  3.931484927462888*^9, 3.931484928202044*^9}},
+ CellLabel->"In[68]:=",ExpressionUUID->"4b3c9f15-b31f-4091-a47b-8f3b5c7b4e1d"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"{", 
+   RowBox[{"1.4142135623730951`", ",", "0.`", ",", "0.`"}], "}"}], 
+  TraditionalForm]], "Output",
+ CellChangeTimes->{{3.931484761725027*^9, 3.9314847820452347`*^9}, 
+   3.931484928636235*^9},
+ CellLabel->"Out[68]=",ExpressionUUID->"28fae3ed-e513-4f00-8260-cbce2c825d76"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"NewSphericalVector", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"1", ",", "0", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2", ",", "0", ",", "0"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.931484803478582*^9, 3.931484816335339*^9}},
+ CellLabel->"In[60]:=",ExpressionUUID->"706cafe1-3cd8-4e52-bc97-9e0c1e2aed44"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"{", 
+   RowBox[{"3", ",", "0", ",", "0"}], "}"}], TraditionalForm]], "Output",
+ CellChangeTimes->{{3.931484811525708*^9, 3.931484816886776*^9}},
+ CellLabel->"Out[60]=",ExpressionUUID->"c676d33d-dae5-4f30-b3d5-c795a1d57424"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "pC"}]], "Input",
+ CellChangeTimes->{{3.9314852048405952`*^9, 3.931485211300552*^9}},
+ CellLabel->"In[74]:=",ExpressionUUID->"0f51d60d-0789-498a-88b5-44b55c7c2b5b"],
 
 Cell[BoxData[
  FormBox[
@@ -15914,11 +16044,7 @@ Cell[BoxData[
           {
            ItemBox[
             PaneBox[
-             
-             StyleBox["\<\"NewSphericalVector[{a,\[Theta]1,\[Phi]1},{b,\
-\[Theta]2,\[Phi]2}]sums up vectors in spherical system. The sum of two \
-vectors can't equal to zero beacause of the characters of the function \
-CartesianToSpherical\"\>", "InformationUsageText",
+             StyleBox["\<\"QPCModel`pC\"\>", "InformationUsageText",
               StripOnInput->False,
               LineSpacing->{1.5, 1.5, 3.}],
              FrameMargins->{{10, 10}, {8, 10}}],
@@ -15944,60 +16070,46 @@ CartesianToSpherical\"\>", "InformationUsageText",
                 TemplateBox[{"\"\[ThinSpace]\"", 
                   GridBox[{{
                     RowBox[{
+                    RowBox[{"pC", "[", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    
+                    RowBox[{"QPCModel`Private`P_", ",", 
+                    "QPCModel`Private`aP_", ",", "QPCModel`Private`bP_"}], 
+                    "}"}], ",", 
+                    RowBox[{"{", 
+                    
+                    RowBox[{"QPCModel`Private`p1_", ",", 
+                    "QPCModel`Private`a1_", ",", "QPCModel`Private`b1_"}], 
+                    "}"}], ",", 
+                    RowBox[{"{", 
+                    
+                    RowBox[{"QPCModel`Private`p4_", ",", 
+                    "QPCModel`Private`a4_", ",", "QPCModel`Private`b4_"}], 
+                    "}"}], ",", "QPCModel`Private`mq_", ",", 
+                    "QPCModel`Private`mQ_"}], "]"}], ":=", 
+                    RowBox[{"Block", "[", 
+                    RowBox[{
+                    RowBox[{"{", "QPCModel`Private`p", "}"}], ",", 
+                    RowBox[{"QPCModel`Private`p", "=", 
                     RowBox[{"NewSphericalVector", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
-                    RowBox[{"QPCModel`Private`a_", ",", 
-                    "QPCModel`Private`\[Theta]1_", ",", 
-                    "QPCModel`Private`\[Phi]1_"}], "}"}], ",", 
-                    RowBox[{"{", 
-                    
-                    RowBox[{"QPCModel`Private`b_", ",", 
-                    "QPCModel`Private`\[Theta]2_", ",", 
-                    "QPCModel`Private`\[Phi]2_"}], "}"}]}], "]"}], ":=", 
-                    RowBox[{"Block", "[", 
-                    RowBox[{
+                    RowBox[{"QPCModel`Private`p4", ",", "QPCModel`Private`a4",
+                     ",", "QPCModel`Private`b4"}], "}"}], ",", 
                     RowBox[{"{", 
                     RowBox[{
-                    RowBox[{"QPCModel`Private`ca", "=", 
-                    RowBox[{"{", 
-                    RowBox[{
-                    RowBox[{"QPCModel`Private`a", " ", 
-                    RowBox[{"Cos", "[", "QPCModel`Private`\[Phi]1", "]"}], 
-                    " ", 
-                    RowBox[{"Sin", "[", "QPCModel`Private`\[Theta]1", "]"}]}],
-                     ",", 
-                    RowBox[{"QPCModel`Private`a", " ", 
-                    RowBox[{"Sin", "[", "QPCModel`Private`\[Theta]1", "]"}], 
-                    " ", 
-                    RowBox[{"Sin", "[", "QPCModel`Private`\[Phi]1", "]"}]}], 
-                    ",", 
-                    RowBox[{"QPCModel`Private`a", " ", 
+                    RowBox[{"-", 
+                    FractionBox[
                     
-                    RowBox[{"Cos", "[", "QPCModel`Private`\[Theta]1", 
-                    "]"}]}]}], "}"}]}], ",", 
-                    RowBox[{"QPCModel`Private`cb", "=", 
-                    RowBox[{"{", 
-                    RowBox[{
-                    RowBox[{"QPCModel`Private`b", " ", 
-                    RowBox[{"Cos", "[", "QPCModel`Private`\[Phi]2", "]"}], 
-                    " ", 
-                    RowBox[{"Sin", "[", "QPCModel`Private`\[Theta]2", "]"}]}],
-                     ",", 
-                    RowBox[{"QPCModel`Private`b", " ", 
-                    RowBox[{"Sin", "[", "QPCModel`Private`\[Theta]2", "]"}], 
-                    " ", 
-                    RowBox[{"Sin", "[", "QPCModel`Private`\[Phi]2", "]"}]}], 
-                    ",", 
-                    RowBox[{"QPCModel`Private`b", " ", 
+                    RowBox[{"QPCModel`Private`mq", " ", 
+                    "QPCModel`Private`P"}], 
                     
-                    RowBox[{"Cos", "[", "QPCModel`Private`\[Theta]2", 
-                    "]"}]}]}], "}"}]}]}], "}"}], ",", 
-                    RowBox[{"CartesianToSpherical", "[", 
-                    
-                    RowBox[{"QPCModel`Private`ca", "+", 
-                    "QPCModel`Private`cb"}], "]"}]}], "]"}]}]}, {" "}}, 
+                    RowBox[{"QPCModel`Private`mq", "+", 
+                    "QPCModel`Private`mQ"}]]}], ",", "QPCModel`Private`aP", 
+                    ",", "QPCModel`Private`bP"}], "}"}]}], "]"}]}]}], 
+                    "]"}]}]}, {" "}}, 
                    GridBoxAlignment -> {"Columns" -> {{Left}}}, 
                    DefaultBaseStyle -> "Column", 
                    GridBoxItemSize -> {
@@ -16027,7 +16139,7 @@ CartesianToSpherical\"\>", "InformationUsageText",
                     TooltipStyle->"TextStyling"],
                     
                     Annotation[#, "FullName", 
-                    "Tooltip"]& ], "\<\"QPCModel`NewSphericalVector\"\>"}
+                    "Tooltip"]& ], "\<\"QPCModel`pC\"\>"}
                   },
                   AutoDelete->False,
                   GridBoxAlignment->{"Columns" -> {Right, Left}},
@@ -16125,11 +16237,7 @@ CartesianToSpherical\"\>", "InformationUsageText",
           {
            ItemBox[
             PaneBox[
-             
-             StyleBox["\<\"NewSphericalVector[{a,\[Theta]1,\[Phi]1},{b,\
-\[Theta]2,\[Phi]2}]sums up vectors in spherical system. The sum of two \
-vectors can't equal to zero beacause of the characters of the function \
-CartesianToSpherical\"\>", "InformationUsageText",
+             StyleBox["\<\"QPCModel`pC\"\>", "InformationUsageText",
               StripOnInput->False,
               LineSpacing->{1.5, 1.5, 3.}],
              FrameMargins->{{10, 10}, {8, 10}}],
@@ -16145,12 +16253,10 @@ CartesianToSpherical\"\>", "InformationUsageText",
               PaneSelectorBox[{False->
                
                DynamicBox[FEPrivate`FrontEndResource[
-                "FEBitmaps", "DownPointerOpener"],
-                ImageSizeCache->{10., {2., 8.}}], True->
+                "FEBitmaps", "DownPointerOpener"]], True->
                
                DynamicBox[FEPrivate`FrontEndResource[
-                "FEBitmaps", "DownPointerOpenerHot"],
-                ImageSizeCache->{10., {2., 8.}}]}, Dynamic[
+                "FEBitmaps", "DownPointerOpenerHot"]]}, Dynamic[
                System`InformationDump`mouseOver$$]],
               Alignment->Left,
               Appearance->{"Default" -> None},
@@ -16192,366 +16298,48 @@ CartesianToSpherical\"\>", "InformationUsageText",
      StripOnInput->False], "InformationGridPlain",
     StripOnInput->False],
    InformationData[<|
-    "ObjectType" -> "Symbol", "Usage" -> 
-     "NewSphericalVector[{a,\[Theta]1,\[Phi]1},{b,\[Theta]2,\[Phi]2}]sums up \
-vectors in spherical system. The sum of two vectors can't equal to zero \
-beacause of the characters of the function CartesianToSpherical", 
-     "Documentation" -> None, "OwnValues" -> None, "UpValues" -> None, 
-     "DownValues" -> 
-     Information`InformationValueForm[
-      DownValues, QPCModel`NewSphericalVector, {QPCModel`NewSphericalVector[{
-           Pattern[QPCModel`Private`a, 
+    "ObjectType" -> "Symbol", "Usage" -> "QPCModel`pC", "Documentation" -> 
+     None, "OwnValues" -> None, "UpValues" -> None, "DownValues" -> 
+     Information`InformationValueForm[DownValues, QPCModel`pC, {QPCModel`pC[{
+           Pattern[QPCModel`Private`P, 
             Blank[]], 
-           Pattern[QPCModel`Private`\[Theta]1, 
+           Pattern[QPCModel`Private`aP, 
             Blank[]], 
-           Pattern[QPCModel`Private`\[Phi]1, 
+           Pattern[QPCModel`Private`bP, 
             Blank[]]}, {
-           Pattern[QPCModel`Private`b, 
+           Pattern[QPCModel`Private`p1, 
             Blank[]], 
-           Pattern[QPCModel`Private`\[Theta]2, 
+           Pattern[QPCModel`Private`a1, 
             Blank[]], 
-           Pattern[QPCModel`Private`\[Phi]2, 
-            Blank[]]}] :> 
-        Block[{QPCModel`Private`ca = {
-            QPCModel`Private`a Cos[QPCModel`Private`\[Phi]1] 
-             Sin[QPCModel`Private`\[Theta]1], QPCModel`Private`a 
-             Sin[QPCModel`Private`\[Theta]1] Sin[QPCModel`Private`\[Phi]1], 
-             QPCModel`Private`a Cos[QPCModel`Private`\[Theta]1]}, 
-           QPCModel`Private`cb = {
-            QPCModel`Private`b Cos[QPCModel`Private`\[Phi]2] 
-             Sin[QPCModel`Private`\[Theta]2], QPCModel`Private`b 
-             Sin[QPCModel`Private`\[Theta]2] Sin[QPCModel`Private`\[Phi]2], 
-             QPCModel`Private`b Cos[QPCModel`Private`\[Theta]2]}}, 
-          QPCModel`CartesianToSpherical[
-          QPCModel`Private`ca + QPCModel`Private`cb]]}], "SubValues" -> None, 
-     "DefaultValues" -> None, "NValues" -> None, "FormatValues" -> None, 
-     "Options" -> None, "Attributes" -> {}, "FullName" -> 
-     "QPCModel`NewSphericalVector"|>, False]], TraditionalForm]], "Output",
- CellChangeTimes->{{3.9313811365862303`*^9, 3.931381149504223*^9}},
- CellLabel->"Out[46]=",ExpressionUUID->"3e7f2953-2193-428a-a215-c4f493a0a1b1"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"?", "CartesianToSpherical"}]], "Input",
- CellChangeTimes->{{3.931381162999674*^9, 3.9313811694380913`*^9}},
- CellLabel->"In[47]:=",ExpressionUUID->"02ea9fcb-4e6c-4a9f-97f3-e022416a18c8"],
-
-Cell[BoxData[
- FormBox[
-  InterpretationBox[
-   StyleBox[
-    FrameBox[
-     DynamicModuleBox[{System`InformationDump`open$$ = False, 
-      System`InformationDump`mouseOver$$ = False}, 
-      PaneSelectorBox[{True->
-       TagBox[GridBox[{
-          {
-           ItemBox[
-            PaneBox[
-             StyleBox[
-              TagBox[
-               TooltipBox[
-                StyleBox["\<\" Symbol\"\>", "InformationRowLabel",
-                 StripOnInput->False],
-                "\"Symbol\"",
-                TooltipStyle->"TextStyling"],
-               Annotation[#, "Symbol", "Tooltip"]& ], "InformationTitleText",
-              StripOnInput->False,
-              BaseStyle -> None],
-             FrameMargins->{{4, 0}, {-1, 1}}],
-            BaseStyle->"InformationTitleBackground",
-            StripOnInput->False], 
-           ItemBox["\<\"\"\>",
-            BaseStyle->"InformationTitleBackground",
-            StripOnInput->False]},
-          {
-           ItemBox[
-            PaneBox[
-             
-             StyleBox["\<\"CartesianToSpherical[{x,y,z}] transform a set of \
-Cartesian coordinate {x,y,z} to Spherical coordinate \
-{\[Rho],\[Theta],\[Phi]}x,y,z can't equal to zero simutaneously\"\>", 
-              "InformationUsageText",
-              StripOnInput->False,
-              LineSpacing->{1.5, 1.5, 3.}],
-             FrameMargins->{{10, 10}, {8, 10}}],
-            BaseStyle->"InformationUsageSubtitleBackground",
-            StripOnInput->False], 
-           ItemBox["\<\"\"\>",
-            BaseStyle->"InformationUsageSubtitleBackground",
-            StripOnInput->False]},
-          {
-           PaneBox[
-            TagBox[GridBox[{
-               {
-                StyleBox[
-                 TagBox[
-                  TooltipBox[
-                   StyleBox["\<\" Definitions\"\>", "InformationRowLabel",
-                    StripOnInput->False],
-                   "\"Definitions\"",
-                   TooltipStyle->"TextStyling"],
-                  Annotation[#, "Definitions", "Tooltip"]& ], "DialogStyle",
-                 StripOnInput->False]},
-               {
-                TemplateBox[{"\"\[ThinSpace]\"", 
-                  GridBox[{{
-                    RowBox[{
-                    RowBox[{"CartesianToSpherical", "[", 
-                    RowBox[{"{", 
-                    
-                    RowBox[{"QPCModel`Private`x_", ",", "QPCModel`Private`y_",
-                     ",", "QPCModel`Private`z_"}], "}"}], "]"}], ":=", 
-                    RowBox[{"{", 
-                    RowBox[{
-                    SqrtBox[
-                    RowBox[{
-                    SuperscriptBox["QPCModel`Private`x", "2"], "+", 
-                    SuperscriptBox["QPCModel`Private`y", "2"], "+", 
-                    SuperscriptBox["QPCModel`Private`z", "2"]}]], ",", 
-                    RowBox[{"ArcCos", "[", 
-                    FractionBox["QPCModel`Private`z", 
-                    SqrtBox[
-                    RowBox[{
-                    SuperscriptBox["QPCModel`Private`x", "2"], "+", 
-                    SuperscriptBox["QPCModel`Private`y", "2"], "+", 
-                    SuperscriptBox["QPCModel`Private`z", "2"]}]]], "]"}], ",", 
-                    RowBox[{"If", "[", 
-                    RowBox[{
-                    RowBox[{"QPCModel`Private`x", "\[NotEqual]", "0"}], ",", 
-                    RowBox[{"ArcTan", "[", 
-                    RowBox[{"QPCModel`Private`x", ",", "QPCModel`Private`y"}],
-                     "]"}], ",", 
-                    RowBox[{
-                    FractionBox["1", "2"], " ", 
-                    RowBox[{"Sign", "[", "QPCModel`Private`y", "]"}], " ", 
-                    "\[Pi]"}]}], "]"}]}], "}"}]}]}, {" "}}, 
-                   GridBoxAlignment -> {"Columns" -> {{Left}}}, 
-                   DefaultBaseStyle -> "Column", 
-                   GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}]},
-                 "RowDefault"]}
-              },
-              DefaultBaseStyle->"Column",
-              GridBoxAlignment->{"Columns" -> {{Left}}},
-              GridBoxItemSize->{
-               "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
-             "Column"],
-            FrameMargins->{{6, 0}, {3, 6}}], "\<\"\"\>"},
-          {
-           PaneBox[GridBox[{
-              {
-               
-               DynamicModuleBox[{System`InformationDump`open$$ = {
-                False, False, False, False, False, False}}, 
-                StyleBox[GridBox[{
-                   {
-                    TagBox[
-                    TooltipBox[
-                    StyleBox["\<\" Full Name\"\>", "InformationRowLabel",
-                    StripOnInput->False],
-                    "\"FullName\"",
-                    TooltipStyle->"TextStyling"],
-                    
-                    Annotation[#, "FullName", 
-                    "Tooltip"]& ], "\<\"QPCModel`CartesianToSpherical\"\>"}
-                  },
-                  AutoDelete->False,
-                  GridBoxAlignment->{"Columns" -> {Right, Left}},
-                  GridBoxDividers->None,
-                  GridBoxItemSize->{"Columns" -> {Automatic, Automatic}},
-                  GridBoxSpacings->{"Columns" -> {
-                    Offset[0.27999999999999997`], {
-                    Offset[0.5599999999999999]}, 
-                    Offset[0.27999999999999997`]}, "Rows" -> {
-                    Offset[0.2], {
-                    Offset[0.8]}, 
-                    Offset[0.2]}}], "DialogStyle",
-                 StripOnInput->False],
-                DynamicModuleValues:>{}]}
-             },
-             DefaultBaseStyle->"Column",
-             GridBoxAlignment->{"Columns" -> {{Left}}},
-             GridBoxDividers->{"Columns" -> {{False}}, "Rows" -> {{False}}},
-             
-             GridBoxItemSize->{
-              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-             GridBoxSpacings->{"Columns" -> {
-                 Offset[0.27999999999999997`], {
-                  Offset[0.5599999999999999]}, 
-                 Offset[0.27999999999999997`]}, "Rows" -> {
-                 Offset[0.2], {
-                  Offset[3.6]}, 
-                 Offset[0.2]}}],
-            FrameMargins->{{6, 6}, {6, 3}}], ""},
-          {
-           ItemBox[
-            TagBox[
-             ButtonBox[
-              PaneSelectorBox[{False->
-               
-               DynamicBox[FEPrivate`FrontEndResource[
-                "FEBitmaps", "UpPointerOpener"]], True->
-               
-               DynamicBox[FEPrivate`FrontEndResource[
-                "FEBitmaps", "UpPointerOpenerHot"]]}, Dynamic[
-               System`InformationDump`mouseOver$$]],
-              Alignment->Left,
-              Appearance->{"Default" -> None},
-              
-              ButtonFunction:>FEPrivate`Set[
-               System`InformationDump`open$$, False],
-              Evaluator->Automatic,
-              FrameMargins->{{9, 0}, {0, 0}},
-              ImageMargins->0,
-              ImageSize->Full,
-              Method->"Preemptive"],
-             
-             EventHandlerTag[{
-              "MouseEntered" :> 
-               FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
-               "MouseExited" :> 
-               FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
-               Method -> "Preemptive", PassEventsDown -> Automatic, 
-               PassEventsUp -> True}]],
-            BaseStyle->"InformationTitleBackground",
-            StripOnInput->False], "\[SpanFromLeft]"}
-         },
-         AutoDelete->False,
-         FrameStyle->Directive[
-           GrayLevel[0.8], 
-           Thickness[Tiny]],
-         GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
-         
-         GridBoxDividers->{
-          "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
-         GridBoxItemSize->{
-          "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
-        "Grid"], False->
-       TagBox[GridBox[{
-          {
-           ItemBox[
-            PaneBox[
-             StyleBox[
-              TagBox[
-               TooltipBox[
-                StyleBox["\<\" Symbol\"\>", "InformationRowLabel",
-                 StripOnInput->False],
-                "\"Symbol\"",
-                TooltipStyle->"TextStyling"],
-               Annotation[#, "Symbol", "Tooltip"]& ], "InformationTitleText",
-              StripOnInput->False],
-             FrameMargins->{{4, 0}, {-1, 1}}],
-            BaseStyle->"InformationTitleBackground",
-            StripOnInput->False], 
-           ItemBox["\<\"\"\>",
-            BaseStyle->"InformationTitleBackground",
-            StripOnInput->False]},
-          {
-           ItemBox[
-            PaneBox[
-             
-             StyleBox["\<\"CartesianToSpherical[{x,y,z}] transform a set of \
-Cartesian coordinate {x,y,z} to Spherical coordinate \
-{\[Rho],\[Theta],\[Phi]}x,y,z can't equal to zero simutaneously\"\>", 
-              "InformationUsageText",
-              StripOnInput->False,
-              LineSpacing->{1.5, 1.5, 3.}],
-             FrameMargins->{{10, 10}, {8, 10}}],
-            BaseStyle->"InformationUsageSubtitleBackground",
-            StripOnInput->False], 
-           ItemBox["\<\"\"\>",
-            BaseStyle->"InformationUsageSubtitleBackground",
-            StripOnInput->False]},
-          {
-           ItemBox[
-            TagBox[
-             ButtonBox[
-              PaneSelectorBox[{False->
-               
-               DynamicBox[FEPrivate`FrontEndResource[
-                "FEBitmaps", "DownPointerOpener"],
-                ImageSizeCache->{10., {2., 8.}}], True->
-               
-               DynamicBox[FEPrivate`FrontEndResource[
-                "FEBitmaps", "DownPointerOpenerHot"],
-                ImageSizeCache->{10., {2., 8.}}]}, Dynamic[
-               System`InformationDump`mouseOver$$]],
-              Alignment->Left,
-              Appearance->{"Default" -> None},
-              
-              ButtonFunction:>FEPrivate`Set[
-               System`InformationDump`open$$, True],
-              Evaluator->Automatic,
-              FrameMargins->{{9, 0}, {0, 0}},
-              ImageMargins->0,
-              ImageSize->Full,
-              Method->"Preemptive"],
-             
-             EventHandlerTag[{
-              "MouseEntered" :> 
-               FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
-               "MouseExited" :> 
-               FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
-               Method -> "Preemptive", PassEventsDown -> Automatic, 
-               PassEventsUp -> True}]],
-            BaseStyle->"InformationTitleBackground",
-            StripOnInput->False], "\[SpanFromLeft]"}
-         },
-         AutoDelete->False,
-         FrameStyle->Directive[
-           GrayLevel[0.8], 
-           Thickness[Tiny]],
-         GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
-         
-         GridBoxDividers->{
-          "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
-         GridBoxItemSize->{
-          "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
-        "Grid"]}, Dynamic[System`InformationDump`open$$],
-       BaselinePosition->Baseline,
-       FrameMargins->0,
-       ImageSize->Automatic],
-      DynamicModuleValues:>{}],
-     BaseStyle->"InformationGridFrame",
-     StripOnInput->False], "InformationGridPlain",
-    StripOnInput->False],
-   InformationData[<|
-    "ObjectType" -> "Symbol", "Usage" -> 
-     "CartesianToSpherical[{x,y,z}] transform a set of Cartesian coordinate \
-{x,y,z} to Spherical coordinate {\[Rho],\[Theta],\[Phi]}x,y,z can't equal to \
-zero simutaneously", "Documentation" -> None, "OwnValues" -> None, "UpValues" -> 
-     None, "DownValues" -> 
-     Information`InformationValueForm[
-      DownValues, QPCModel`CartesianToSpherical, {
-       QPCModel`CartesianToSpherical[{
-           Pattern[QPCModel`Private`x, 
+           Pattern[QPCModel`Private`b1, 
+            Blank[]]}, {
+           Pattern[QPCModel`Private`p4, 
             Blank[]], 
-           Pattern[QPCModel`Private`y, 
+           Pattern[QPCModel`Private`a4, 
             Blank[]], 
-           Pattern[QPCModel`Private`z, 
-            Blank[]]}] :> {
-          Sqrt[
-          QPCModel`Private`x^2 + QPCModel`Private`y^2 + QPCModel`Private`z^2], 
-          ArcCos[
-          QPCModel`Private`z/Sqrt[
-           QPCModel`Private`x^2 + QPCModel`Private`y^2 + 
-            QPCModel`Private`z^2]], 
-          If[QPCModel`Private`x != 0, 
-           ArcTan[QPCModel`Private`x, QPCModel`Private`y], 
-           Sign[QPCModel`Private`y] (Pi/2)]}}], "SubValues" -> None, 
-     "DefaultValues" -> None, "NValues" -> None, "FormatValues" -> None, 
-     "Options" -> None, "Attributes" -> {}, "FullName" -> 
-     "QPCModel`CartesianToSpherical"|>, False]], TraditionalForm]], "Output",
- CellChangeTimes->{3.9313811703532133`*^9},
- CellLabel->"Out[47]=",ExpressionUUID->"cb81944e-7714-4c0b-babd-de10b74ef473"]
+           Pattern[QPCModel`Private`b4, 
+            Blank[]]}, 
+          Pattern[QPCModel`Private`mq, 
+           Blank[]], 
+          Pattern[QPCModel`Private`mQ, 
+           Blank[]]] :> 
+        Block[{QPCModel`Private`p}, QPCModel`Private`p = 
+          QPCModel`NewSphericalVector[{
+            QPCModel`Private`p4, QPCModel`Private`a4, 
+             QPCModel`Private`b4}, {(-(QPCModel`Private`mq/(
+               QPCModel`Private`mq + QPCModel`Private`mQ))) 
+             QPCModel`Private`P, QPCModel`Private`aP, 
+             QPCModel`Private`bP}]]}], "SubValues" -> None, "DefaultValues" -> 
+     None, "NValues" -> None, "FormatValues" -> None, "Options" -> None, 
+     "Attributes" -> {}, "FullName" -> "QPCModel`pC"|>, False]], 
+  TraditionalForm]], "Output",
+ CellChangeTimes->{3.931485211721074*^9, 3.931485290313266*^9},
+ CellLabel->"Out[74]=",ExpressionUUID->"73365d64-30b3-4b94-93cf-7e89c9380bcd"]
 }, Open  ]]
 }, Open  ]]
 },
 WindowSize->{808, 816},
-WindowMargins->{{317, Automatic}, {Automatic, -1002}},
+WindowMargins->{{226, Automatic}, {Automatic, -1006}},
 FrontEndVersion->"14.0 for Mac OS X ARM (64-bit) (2023\:5e7412\:670812\:65e5)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"8e19f259-67bb-4bad-81cb-942a7e2e2f2d"
@@ -16575,76 +16363,94 @@ Cell[CellGroupData[{
 Cell[991, 36, 250, 4, 44, "Input",ExpressionUUID->"a47ce3ac-1c64-4fc4-9c3c-d6c155a41bd9"],
 Cell[1244, 42, 295, 5, 30, "Output",ExpressionUUID->"398e74b6-415c-4b79-9385-35d31ef522c4"]
 }, Open  ]],
-Cell[1554, 50, 199, 3, 60, "Input",ExpressionUUID->"8f3d5ab7-7c0d-4e76-a44b-fe019a36381e"],
+Cell[1554, 50, 199, 3, 30, "Input",ExpressionUUID->"8f3d5ab7-7c0d-4e76-a44b-fe019a36381e"],
 Cell[CellGroupData[{
-Cell[1778, 57, 183, 3, 45, "Subsubsection",ExpressionUUID->"0a676faf-f95f-461a-a467-871c39d7b8b0"],
-Cell[1964, 62, 175, 3, 40, "Text",ExpressionUUID->"86028eb1-5d41-4ea7-a24f-fcc8bef17d7a"],
+Cell[1778, 57, 171, 3, 54, "Subsection",ExpressionUUID->"986e5914-32a3-4427-9f80-eb5a41843dee"],
 Cell[CellGroupData[{
-Cell[2164, 69, 277, 5, 30, "Input",ExpressionUUID->"58eb5433-02a6-47bb-9e50-ab06a8c67e51"],
-Cell[2444, 76, 422, 12, 55, "Output",ExpressionUUID->"d6b462c4-03db-4bf7-a2dc-1347dd250948"]
+Cell[1974, 64, 183, 3, 45, "Subsubsection",ExpressionUUID->"0a676faf-f95f-461a-a467-871c39d7b8b0"],
+Cell[2160, 69, 175, 3, 40, "Text",ExpressionUUID->"86028eb1-5d41-4ea7-a24f-fcc8bef17d7a"],
+Cell[CellGroupData[{
+Cell[2360, 76, 277, 5, 30, "Input",ExpressionUUID->"58eb5433-02a6-47bb-9e50-ab06a8c67e51"],
+Cell[2640, 83, 422, 12, 55, "Output",ExpressionUUID->"d6b462c4-03db-4bf7-a2dc-1347dd250948"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2903, 93, 277, 5, 30, "Input",ExpressionUUID->"1a78a18e-48c9-40c6-82cc-605b99ed0f96"],
-Cell[3183, 100, 289, 7, 46, "Output",ExpressionUUID->"19c686a4-69e4-49c2-a38e-95e456240e1d"]
+Cell[3099, 100, 277, 5, 30, "Input",ExpressionUUID->"1a78a18e-48c9-40c6-82cc-605b99ed0f96"],
+Cell[3379, 107, 289, 7, 46, "Output",ExpressionUUID->"19c686a4-69e4-49c2-a38e-95e456240e1d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3509, 112, 275, 5, 30, "Input",ExpressionUUID->"9d0e158a-f76c-4320-b60b-6c285284e9c1"],
-Cell[3787, 119, 290, 7, 46, "Output",ExpressionUUID->"5cd65449-8301-4f9f-bc9f-14dd2a257db9"]
+Cell[3705, 119, 275, 5, 30, "Input",ExpressionUUID->"9d0e158a-f76c-4320-b60b-6c285284e9c1"],
+Cell[3983, 126, 290, 7, 46, "Output",ExpressionUUID->"5cd65449-8301-4f9f-bc9f-14dd2a257db9"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4114, 131, 277, 5, 30, "Input",ExpressionUUID->"5de6888c-7d62-4def-8ea3-af3cb550724a"],
-Cell[4394, 138, 234, 5, 30, "Output",ExpressionUUID->"6727aa03-e9c7-412b-baaa-874afbbd4845"]
+Cell[4310, 138, 277, 5, 30, "Input",ExpressionUUID->"5de6888c-7d62-4def-8ea3-af3cb550724a"],
+Cell[4590, 145, 234, 5, 30, "Output",ExpressionUUID->"6727aa03-e9c7-412b-baaa-874afbbd4845"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4665, 148, 275, 5, 30, "Input",ExpressionUUID->"9de9cb33-73a2-4230-ab3a-d0fa95549a99"],
-Cell[4943, 155, 449, 11, 39, "Message",ExpressionUUID->"5df1f11e-393a-4297-8fdc-7fed985b6c8c"],
-Cell[5395, 168, 473, 11, 28, "Message",ExpressionUUID->"d4eb9f75-ccf9-492a-90f6-792616b97d36"],
-Cell[5871, 181, 249, 6, 30, "Output",ExpressionUUID->"ec0d87cc-5e1c-4106-afd0-a0203447cc59"]
+Cell[4861, 155, 275, 5, 30, "Input",ExpressionUUID->"9de9cb33-73a2-4230-ab3a-d0fa95549a99"],
+Cell[5139, 162, 449, 11, 39, "Message",ExpressionUUID->"5df1f11e-393a-4297-8fdc-7fed985b6c8c"],
+Cell[5591, 175, 473, 11, 28, "Message",ExpressionUUID->"d4eb9f75-ccf9-492a-90f6-792616b97d36"],
+Cell[6067, 188, 249, 6, 30, "Output",ExpressionUUID->"ec0d87cc-5e1c-4106-afd0-a0203447cc59"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[6157, 192, 555, 14, 44, "Input",ExpressionUUID->"c9baac29-444f-4391-9b57-4919c575796d"],
-Cell[6715, 208, 177751, 2855, 263, "Output",ExpressionUUID->"92934452-1e2d-48ce-8410-dc0298b6c69b"]
+Cell[6353, 199, 555, 14, 44, "Input",ExpressionUUID->"c9baac29-444f-4391-9b57-4919c575796d"],
+Cell[6911, 215, 177759, 2856, 174, "Output",ExpressionUUID->"92934452-1e2d-48ce-8410-dc0298b6c69b"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[184503, 3068, 564, 14, 44, "Input",ExpressionUUID->"66e844b7-9e17-4fdd-bbd0-52cd89d33619"],
-Cell[185070, 3084, 767042, 12523, 254, 629658, 10269, "CachedBoxData", "BoxData", "Output",ExpressionUUID->"0785a373-0102-4933-82f0-119103686379"]
+Cell[184707, 3076, 564, 14, 44, "Input",ExpressionUUID->"66e844b7-9e17-4fdd-bbd0-52cd89d33619"],
+Cell[185274, 3092, 767042, 12523, 254, 629658, 10269, "CachedBoxData", "BoxData", "Output",ExpressionUUID->"0785a373-0102-4933-82f0-119103686379"]
 }, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[952365, 15621, 145, 3, 37, "Subsubsection",ExpressionUUID->"34218f75-c01b-43b6-846d-c0ec1e72e98f"],
+Cell[CellGroupData[{
+Cell[952535, 15628, 441, 12, 44, "Input",ExpressionUUID->"69db6a17-cef3-42c2-b34a-487ab7cfb792"],
+Cell[952979, 15642, 290, 7, 46, "Output",ExpressionUUID->"d75b1d88-c1a7-4043-be8e-6b66c8837676"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[952161, 15613, 145, 3, 45, "Subsubsection",ExpressionUUID->"34218f75-c01b-43b6-846d-c0ec1e72e98f"],
-Cell[CellGroupData[{
-Cell[952331, 15620, 441, 12, 44, "Input",ExpressionUUID->"69db6a17-cef3-42c2-b34a-487ab7cfb792"],
-Cell[952775, 15634, 290, 7, 46, "Output",ExpressionUUID->"d75b1d88-c1a7-4043-be8e-6b66c8837676"]
+Cell[953306, 15654, 462, 13, 44, "Input",ExpressionUUID->"3dbe9a44-9abf-4638-9dc4-cc8cffc202fe"],
+Cell[953771, 15669, 338, 10, 49, "Output",ExpressionUUID->"cdf47a98-ad8b-4c15-a479-aa0a98fb7c22"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[953102, 15646, 462, 13, 44, "Input",ExpressionUUID->"3dbe9a44-9abf-4638-9dc4-cc8cffc202fe"],
-Cell[953567, 15661, 338, 10, 49, "Output",ExpressionUUID->"cdf47a98-ad8b-4c15-a479-aa0a98fb7c22"]
+Cell[954146, 15684, 486, 13, 44, "Input",ExpressionUUID->"4907964f-5a49-4b65-850d-76c2708ea204"],
+Cell[954635, 15699, 314, 7, 46, "Output",ExpressionUUID->"cee408d4-ef3a-4e87-ac2f-485493feb334"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[953942, 15676, 486, 13, 44, "Input",ExpressionUUID->"4907964f-5a49-4b65-850d-76c2708ea204"],
-Cell[954431, 15691, 314, 7, 46, "Output",ExpressionUUID->"cee408d4-ef3a-4e87-ac2f-485493feb334"]
+Cell[954986, 15711, 486, 13, 44, "Input",ExpressionUUID->"6123b7ea-cd43-44a1-ae60-55a5cc6f9d59"],
+Cell[955475, 15726, 339, 10, 49, "Output",ExpressionUUID->"6bf63d39-b5e1-43a9-beb0-996b3d8b7b2d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[954782, 15703, 486, 13, 44, "Input",ExpressionUUID->"6123b7ea-cd43-44a1-ae60-55a5cc6f9d59"],
-Cell[955271, 15718, 339, 10, 49, "Output",ExpressionUUID->"6bf63d39-b5e1-43a9-beb0-996b3d8b7b2d"]
+Cell[955851, 15741, 487, 13, 44, "Input",ExpressionUUID->"8a9d64cd-1479-4931-9f09-21b7376fcbc3"],
+Cell[956341, 15756, 449, 11, 39, "Message",ExpressionUUID->"cb1bd321-04a9-4cc8-9836-76c0fb7b867b"],
+Cell[956793, 15769, 472, 11, 28, "Message",ExpressionUUID->"b3bbbbb5-0267-461d-8678-3573ce58dd29"],
+Cell[957268, 15782, 249, 6, 30, "Output",ExpressionUUID->"49e59c17-8f98-4acc-a5d8-0de6452caf9a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[955647, 15733, 487, 13, 44, "Input",ExpressionUUID->"8a9d64cd-1479-4931-9f09-21b7376fcbc3"],
-Cell[956137, 15748, 449, 11, 39, "Message",ExpressionUUID->"cb1bd321-04a9-4cc8-9836-76c0fb7b867b"],
-Cell[956589, 15761, 472, 11, 28, "Message",ExpressionUUID->"b3bbbbb5-0267-461d-8678-3573ce58dd29"],
-Cell[957064, 15774, 249, 6, 30, "Output",ExpressionUUID->"49e59c17-8f98-4acc-a5d8-0de6452caf9a"]
+Cell[957554, 15793, 469, 12, 44, "Input",ExpressionUUID->"e9a7aee9-20a1-47ba-b226-9c05512c53af"],
+Cell[958026, 15807, 2187, 76, 160, "Output",ExpressionUUID->"a7fe76e3-e138-468a-be25-7b32938cffcf"]
+}, Open  ]]
+}, Closed]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[960274, 15890, 164, 3, 38, "Subsection",ExpressionUUID->"1ba91bec-3d18-49bd-8431-03552becf45d"],
+Cell[CellGroupData[{
+Cell[960463, 15897, 720, 19, 44, "Input",ExpressionUUID->"82229639-b8fb-4627-8bc2-4b3c0f93e8a9"],
+Cell[961186, 15918, 458, 10, 30, "Output",ExpressionUUID->"415216df-770e-41c1-a657-7123f90de416"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[957350, 15785, 469, 12, 44, "Input",ExpressionUUID->"e9a7aee9-20a1-47ba-b226-9c05512c53af"],
-Cell[957822, 15799, 2187, 76, 160, "Output",ExpressionUUID->"a7fe76e3-e138-468a-be25-7b32938cffcf"]
+Cell[961681, 15933, 549, 16, 44, "Input",ExpressionUUID->"139e3c5d-c1f9-44d6-80ae-dc5d474b40d6"],
+Cell[962233, 15951, 311, 7, 30, "Output",ExpressionUUID->"f960df71-118f-4b2c-91b9-376dd810e289"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[960046, 15880, 206, 3, 30, "Input",ExpressionUUID->"ab06309f-5aca-42ce-a919-02d4769135eb"],
-Cell[960255, 15885, 14661, 345, 351, "Output",ExpressionUUID->"3e7f2953-2193-428a-a215-c4f493a0a1b1"]
+Cell[962581, 15963, 498, 13, 44, "Input",ExpressionUUID->"4b3c9f15-b31f-4091-a47b-8f3b5c7b4e1d"],
+Cell[963082, 15978, 311, 7, 30, "Output",ExpressionUUID->"28fae3ed-e513-4f00-8260-cbce2c825d76"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[974953, 16235, 210, 3, 30, "Input",ExpressionUUID->"02ea9fcb-4e6c-4a9f-97f3-e022416a18c8"],
-Cell[975166, 16240, 12785, 308, 118, "Output",ExpressionUUID->"cb81944e-7714-4c0b-babd-de10b74ef473"]
+Cell[963430, 15990, 357, 8, 30, "Input",ExpressionUUID->"706cafe1-3cd8-4e52-bc97-9e0c1e2aed44"],
+Cell[963790, 16000, 258, 5, 30, "Output",ExpressionUUID->"c676d33d-dae5-4f30-b3d5-c795a1d57424"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[964085, 16010, 192, 3, 30, "Input",ExpressionUUID->"0f51d60d-0789-498a-88b5-44b55c7c2b5b"],
+Cell[964280, 16015, 13013, 321, 347, "Output",ExpressionUUID->"73365d64-30b3-4b94-93cf-7e89c9380bcd"]
 }, Open  ]]
 }, Open  ]]
 }
